@@ -1,0 +1,122 @@
+:root {
+    --color-primery:#212121;
+    --color-secondary:#757575;
+    --color-action:#2196F3;
+    --color-light-primery:#FFF;
+    --color-light-secondary:#F5F4FA;
+    --color-dark-secondary:#000000;
+    --color-dark-primery:#2F303A;
+}
+
+.body {
+    background-color:var(--color-light-primery);
+    color:var(--color-primery);
+}
+.list {
+    list-style: none;
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+.link {
+    text-decoration: none;
+}
+/* Header section */
+.logo {
+    color: var(--color-action);
+    text-decoration: none;
+    cursor: default;
+}
+.logoheader {
+    color: var(--color-dark-secondary);
+}
+.nav-link {
+    color:var(--color-primery);
+}
+
+.nav-link:hover {
+color:var(--color-action);
+}
+.nav-link:focus {
+    color: var(--color-action);
+}
+.nav-link:active {
+    color: var(--color-action);
+}
+/* Hero section */
+.hero {
+    background-color:var(--color-dark-primery);
+    color: var(--color-light-primery);
+        width: 1600px;
+        
+}
+.hero-button {
+background-color: var(--color-action);
+color: var(--color-light-primery);
+    width: 216px;
+    height: 50px;
+}
+/* features section */
+.features-subtitle {
+    text-transform:uppercase;
+}
+.features-text {
+    color: var(--color-secondary);
+}
+/* team section */
+.team {
+background-color: var(--color-light-secondary);
+}
+.team-item {
+    background-color: var(--color-light-primery);
+}
+.team-text {
+    color: var(--color-secondary);
+}
+/* footer section */
+.footer {
+    background-color: var(--color-dark-primery);
+}
+.logofooter {
+    color: var(--color-light-primery);
+}
+.address-map {
+    color: var(--color-light-primery);
+}
+.address-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+/* portfolio button */
+.portfolio-button {
+    background-color:var(--color-light-secondary);
+    width: 125px;
+    height: 38px;
+}
+.portfolio-button:hover {
+background-color: var(--color-action);
+color: var(--color-light-primery);
+}
+.portfolio-button:focus {
+    background-color: var(--color-action);
+    color: var(--color-light-primery);
+}
+.portfolio-button:active {
+    background-color: var(--color-action);
+    color: var(--color-light-primery);
+}
+/* portfolio section */
+.portfolio-title {
+    color: var(--color-dark-primery);
+}
+.portfolio-subtitle {
+    color: var(--color-secondary);
+}
