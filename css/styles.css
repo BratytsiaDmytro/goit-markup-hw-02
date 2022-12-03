@@ -13,7 +13,7 @@ body {
     color:var(--color-primery);
 
     font-family: 'Roboto', sans-serif;
-    font-style: normal;
+
 }
 .list {
     list-style: none;
@@ -35,15 +35,14 @@ body {
 }
 /* Header section */
 .logo {
-    font-family: 'Raleway';
-        font-style: normal;
+    font-family: 'Raleway', sans-serif;
         font-weight: 700;
         font-size: 26px;
         line-height: 1.2;
         letter-spacing: 0.03em;
     color: var(--color-action);
     text-decoration: none;
-    cursor: default;
+    
 }
 .logoheader {
     color: var(--color-dark-secondary);
@@ -67,12 +66,14 @@ color:var(--color-action);
 .hero {
     background-color:var(--color-dark-primery);
     color: var(--color-light-primery);
-        width: 1600px;
+    
         
 }
+.hero-title {
+    text-transform: uppercase;
+}
 .hero-button {
-    font-family: 'Roboto';
-        font-style: normal;
+    font-family: inherit;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.9;
@@ -92,18 +93,24 @@ color: var(--color-light-primery);
     text-transform:uppercase;
 }
 .features-text {
-    font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
     color: var(--color-secondary);
 }
+/* examples section */
+.examples-title {
+    font-size: 36px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
 /* team section */
 .team {
 background-color: var(--color-light-secondary);
 }
 .team-title {
-    font-weight: 700;
         font-size: 36px;
         line-height: 1.2;
         text-align: center;
@@ -132,8 +139,6 @@ background-color: var(--color-light-secondary);
     color: var(--color-light-primery);
 }
 .address-map {
-    font-style: normal;
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
@@ -141,7 +146,6 @@ background-color: var(--color-light-secondary);
 }
 .address-link {
     font-style: normal;
-        font-weight: 400;
         font-size: 14px;
         line-height: 1.7;
         letter-spacing: 0.03em;
@@ -153,16 +157,13 @@ background-color: var(--color-light-secondary);
 }
 /* portfolio button */
 .portfolio-button {
-    font-family: 'Roboto';
-        font-style: normal;
+    font-family: inherit;
         font-weight: 500;
         font-size: 16px;
         line-height: 1.6;
         text-align: center;
         letter-spacing: 0.03em;
     background-color:var(--color-light-secondary);
-    width: 125px;
-    height: 38px;
     cursor: pointer;
 }
 .portfolio-button:hover {
