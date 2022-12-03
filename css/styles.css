@@ -1,11 +1,12 @@
 :root {
     --color-primery:#212121;
     --color-secondary:#757575;
-    --color-action:#2196F3;
+    --color-action-primery:#2196F3;
     --color-light-primery:#FFF;
     --color-light-secondary:#F5F4FA;
     --color-dark-secondary:#000000;
     --color-dark-primery:#2F303A;
+    --color-action-secondary: #188CE8;
 }
 
 body {
@@ -40,7 +41,7 @@ body {
         font-size: 26px;
         line-height: 1.2;
         letter-spacing: 0.03em;
-    color: var(--color-action);
+    color: var(--color-action-primery);
     text-decoration: none;
     
 }
@@ -55,12 +56,13 @@ body {
     color:var(--color-primery);
 }
 
-.nav-link:hover, :focus, :active {
-color:var(--color-action);
+.nav-link:hover, 
+.nav-link:focus {
+color:var(--color-action-primery);
 }
 
 .nav-link.current {
-    color: var(--color-action);
+    color: var(--color-action-primery);
 }
 /* Hero section */
 .hero {
@@ -78,11 +80,16 @@ color:var(--color-action);
         font-size: 16px;
         line-height: 1.9;
         letter-spacing: 0.06em;
-background-color: var(--color-action);
+background-color: var(--color-action-primery);
 color: var(--color-light-primery);
     width: 216px;
     height: 50px;
     cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+    color: var(--color-light-primery);
+    background-color: var(--color-action-secondary);
 }
 /* features section */
 .features-subtitle {
@@ -153,7 +160,7 @@ background-color: var(--color-light-secondary);
 }
 .address-link:hover, :focus,
 .address-map:hover, :focus {
-    color: var(--color-action);
+    color: var(--color-action-primery);
 }
 /* portfolio button */
 .portfolio-button {
@@ -166,18 +173,12 @@ background-color: var(--color-light-secondary);
     background-color:var(--color-light-secondary);
     cursor: pointer;
 }
-.portfolio-button:hover {
-background-color: var(--color-action);
+.portfolio-button:hover,
+ .portfolio-button:focus {
+background-color: var(--color-action-primery);
 color: var(--color-light-primery);
 }
-.portfolio-button:focus {
-    background-color: var(--color-action);
-    color: var(--color-light-primery);
-}
-.portfolio-button:active {
-    background-color: var(--color-action);
-    color: var(--color-light-primery);
-}
+ 
 /* portfolio section */
 .portfolio-title {
     font-size: 18px;
